@@ -13,7 +13,8 @@ add_executable(Schwein
        
         source/Schwein.cpp
         source/Schwein.h
-        "source/main.cpp")
+        "source/main.cpp"
+        source/calculator.h)
 
 
 
