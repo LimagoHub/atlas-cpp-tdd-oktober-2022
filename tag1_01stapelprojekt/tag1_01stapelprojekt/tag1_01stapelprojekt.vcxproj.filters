@@ -18,15 +18,9 @@
     <ClCompile Include="tag1_01stapelprojekt.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="stapel.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stapel.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="stapel_exception.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

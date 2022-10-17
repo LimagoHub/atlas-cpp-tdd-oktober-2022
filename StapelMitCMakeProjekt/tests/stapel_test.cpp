@@ -46,7 +46,7 @@ TEST_F(stapel_test, push__overflow__throws_stapelexception)
 TEST_F(stapel_test, push__overflow__throws_stapelexception_variante2)
 {
 	// Arrange
-	for (int i = 0; i < 11; i++)
+	for (int i = 0; i < 10; i++)
 		object_under_test.push(1);
 	
 	// Act

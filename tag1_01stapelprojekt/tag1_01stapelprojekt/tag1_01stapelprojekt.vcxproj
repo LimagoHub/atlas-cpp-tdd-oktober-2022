@@ -139,12 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stapel.cpp" />
     <ClCompile Include="tag1_01stapelprojekt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stapel.h" />
-    <ClInclude Include="stapel_exception.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

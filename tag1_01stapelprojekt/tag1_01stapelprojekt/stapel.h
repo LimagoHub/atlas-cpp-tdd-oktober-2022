@@ -1,14 +1,16 @@
 #pragma once
 class stapel
 {
-	int data[10];
-	int index;
+	bool empty{true};
 public:
-	stapel();
+	bool is_empty()
+	{
+		return empty;
+	}
 
-	void push(int value);
-	int pop();
-	bool is_empty();
-	bool is_full();
+	void push(int value)
+	{
+		empty = false;
+	}
 };
 
