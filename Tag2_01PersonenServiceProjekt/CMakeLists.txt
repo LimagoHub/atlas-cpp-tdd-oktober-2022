@@ -14,7 +14,7 @@ add_executable(PersonenService source/main.cpp
 "source/persistence/personen_repository.h" 
 "source/service/personen_service_impl.h" 
 "source/service/personen_service_exception.h"
-
+        ../source/service/blacklisted_person_service.h
         )
 
 

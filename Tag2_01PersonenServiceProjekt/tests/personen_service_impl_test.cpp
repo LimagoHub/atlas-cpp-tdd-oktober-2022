@@ -29,6 +29,7 @@ TEST_F(personen_service_impl_test, speichern__nachname_zu_kurz__throws_personen_
 TEST_F(personen_service_impl_test, speichern__Antipath__throws_personen_service_exception){
     try {
         person invalid_person{"John", "Doe"};
+        EXPECT_CALL(blacklistMock, is_blacklisted(invalid_person)).Times(1).WillOnce(Return(true));
         object_under_test.speichern(invalid_person);
         FAIL() << "Upps";
     }  catch(const personen_service_exception& ex) {
@@ -56,4 +57,16 @@ TEST_F(personen_service_impl_test, speichern__happy_day__person_passed_to_repo_a
         EXPECT_NO_THROW(object_under_test.speichern(valid_person));
 
 
+}
+
+TEST_F(personen_service_impl_test, speichern_overloaded_with_names__happy_day__person_passed_to_repo_and_no_exception_is_thrown){
+
+    person person_param_to_catch;
+
+
+    EXPECT_CALL(repoMock, save_or_update(_)).Times(1).WillOnce(DoAll(SaveArg<0>(&person_param_to_catch)));
+    EXPECT_NO_THROW(object_under_test.speichern("John", "Doe"));
+
+    EXPECT_EQ("John", person_param_to_catch.getVorname());
+    EXPECT_EQ("Doe", person_param_to_catch.getNachname());
 }

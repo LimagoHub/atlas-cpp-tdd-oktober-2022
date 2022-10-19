@@ -20,7 +20,7 @@ class personen_service_impl {
     }
 
     void business_check(const person &person_) const {
-        if (person_.getVorname() == "Attila")
+        if (blacklistedPersonService_.is_blacklisted(person_))
             throw personen_service_exception{"Antipath"};
     }
 
@@ -64,7 +64,9 @@ public:
 
     }
 
-
+    void speichern(std::string vorname,std::string nachname ) const {
+        speichern(person{vorname,nachname});
+    }
 
 
 };
