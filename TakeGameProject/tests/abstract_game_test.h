@@ -16,7 +16,7 @@ using namespace testing;
 
 class abstract_game_test : public Test{
 protected:
-    Mockwriter writer_mock;
+    NaggyMock<Mockwriter> writer_mock;
     NiceMock<Mockplayer> game_player_mock;
     MyAbstractGameDummy object_under_test{writer_mock};
 

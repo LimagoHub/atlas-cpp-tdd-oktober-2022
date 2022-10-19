@@ -6,6 +6,8 @@
 
 TEST_F(abstract_game_test, play_success) {
 
+   // EXPECT_CALL(game_player_mock, do_turn(_)).WillOnce(Return(DummyMove{}));
+
     EXPECT_CALL(game_player_mock, do_turn(_)).WillOnce([this](DummyBoard d){
         object_under_test.game_over = true;
         return DummyMove{};

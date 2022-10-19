@@ -22,13 +22,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="Letzter Stand (Bugfixed)">
-      <change afterPath="$PROJECT_DIR$/../TakeGameProject/tests/computer_player_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TakeGameProject/tests/computer_player_test.h" afterDir="false" />
+    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="Uebung">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter.h" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter_impl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TakeGameProject/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TakeGameProject/tests/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
@@ -64,26 +62,32 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager" selected="Google Test.euro_to_dollar_calculator_impl_test.simpletest">
-    <configuration name="euro_to_dollar_calculator_impl_test.simpletest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_calculator_impl_test" TEST_METHOD="simpletest" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="CMake Application.Euro2DollarTest">
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__gueltige_zahl__eurovalue_passed_to_service" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__gueltige_zahl__eurovalue_passed_to_service" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="euro_to_dollar_presenter_impl_test.populate_items_happy_day_mask_is_filled_with_defaults" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="populate_items_happy_day_mask_is_filled_with_defaults" TEST_MODE="SUITE_TEST">
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__happy_day__result_in_dollarfield" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__happy_day__result_in_dollarfield" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" TEST_MODE="SUITE_TEST">
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen__unexcpected_exception_in_underlying_service__error_message_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen__unexcpected_exception_in_underlying_service__error_message_in_dollar_field" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="euro_to_dollar_presenter_impl_test.rechnen_valid_euro_field_is_passed_to_service" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen_valid_euro_field_is_passed_to_service" TEST_MODE="SUITE_TEST">
+    <configuration name="euro_to_dollar_presenter_impl_test.update_rechnen_action_state__NAN_in_Eurofield__rechnen_disabled" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="update_rechnen_action_state__NAN_in_Eurofield__rechnen_disabled" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="euro_to_dollar_presenter_impl_test.update_rechnen_action_state__valid_number_in_Eurofield__rechnen_enabled" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="update_rechnen_action_state__valid_number_in_Eurofield__rechnen_enabled" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -112,17 +116,19 @@
     <list>
       <item itemvalue="CMake Application.Euro2DollarTest" />
       <item itemvalue="CMake Application.Euro2Dollar" />
-      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_valid_euro_field_is_passed_to_service" />
-      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" />
-      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.populate_items_happy_day_mask_is_filled_with_defaults" />
-      <item itemvalue="Google Test.euro_to_dollar_calculator_impl_test.simpletest" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__gueltige_zahl__eurovalue_passed_to_service" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__unexcpected_exception_in_underlying_service__error_message_in_dollar_field" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__happy_day__result_in_dollarfield" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__NAN_in_Eurofield__rechnen_disabled" />
+      <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__valid_number_in_Eurofield__rechnen_enabled" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.euro_to_dollar_calculator_impl_test.simpletest" />
-        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.populate_items_happy_day_mask_is_filled_with_defaults" />
-        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_valid_euro_field_is_passed_to_service" />
-        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__valid_number_in_Eurofield__rechnen_enabled" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.update_rechnen_action_state__NAN_in_Eurofield__rechnen_disabled" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__happy_day__result_in_dollarfield" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__unexcpected_exception_in_underlying_service__error_message_in_dollar_field" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen__gueltige_zahl__eurovalue_passed_to_service" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +147,7 @@
       <workItem from="1654242338747" duration="1667000" />
       <workItem from="1665125847832" duration="2455000" />
       <workItem from="1666159641277" duration="3087000" />
-      <workItem from="1666171269277" duration="963000" />
+      <workItem from="1666171269277" duration="8556000" />
     </task>
     <task id="LOCAL-00001" summary="Letzter Stand">
       <created>1654017415364</created>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654017560821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Uebung">
+      <created>1666172261689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666172261689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +199,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Letzter Stand" />
     <MESSAGE value="Letzter Stand (Bugfixed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Letzter Stand (Bugfixed)" />
+    <MESSAGE value="Uebung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung" />
   </component>
 </project>
